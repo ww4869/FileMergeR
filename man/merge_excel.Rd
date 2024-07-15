@@ -18,5 +18,5 @@ The merged data frame
 this function is mainly used to merge all excel files in a specified directory
 }
 \examples{
-merge_excel("path/to/excel/files", "output/merged.xlsx")
+merge_excel("test_data/", "test_data/excel_merge_file.xlsx")
 }

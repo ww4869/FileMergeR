@@ -18,5 +18,5 @@ The merged data frame
 this function is mainly used to merge all CSV files in a specified directory
 }
 \examples{
-merge_csv("path/to/csv/files", "output/merged.csv")
+merge_csv("test_data/", "test_data/csv_merge_file.csv")
 }

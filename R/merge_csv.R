@@ -7,7 +7,7 @@
 #' @return The merged data frame
 #' @export
 #'
-#' @examples merge_csv("path/to/csv/files", "output/merged.csv")
+#' @examples merge_csv("test_data/", "test_data/csv_merge_file.csv")
 merge_csv <- function(directory, output_file) {
 
   files <- list.files(directory, pattern = "\\.csv$", full.names = TRUE)

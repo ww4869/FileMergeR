@@ -6,7 +6,7 @@
 #' @return The merged data frame
 #' @export
 #'
-#' @examples merge_excel("path/to/excel/files", "output/merged.xlsx")
+#' @examples merge_excel("test_data/", "test_data/excel_merge_file.xlsx")
 merge_excel <- function(directory, output_file) {
 
   files <- list.files(directory, pattern = "\\.xlsx$", full.names = TRUE)
